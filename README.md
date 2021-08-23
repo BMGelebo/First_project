@@ -6,7 +6,7 @@ In traditional field of statistics, data is defined as an individual numerical f
 
 
 
-fig6 = px.bar(stop_grouped, 
+'<fig6 = px.bar(stop_grouped, 
                       x = selectedCompare,
                       y= "stopDriveToAllDrives(%)", 
                       color = selectedFilter,color_discrete_sequence = color_discrete_sequence,
@@ -14,5 +14,5 @@ fig6 = px.bar(stop_grouped,
                       barmode='group')
         fig6.update_layout({'plot_bgcolor': 'rgba(255,255, 255, 255)',
                             'paper_bgcolor': 'rgba(255,255, 255, 255)'
-                           })
+                           })>'
 
