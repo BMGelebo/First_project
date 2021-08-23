@@ -3,3 +3,16 @@ In traditional field of statistics, data is defined as an individual numerical f
 
 ![20190913_133104](https://user-images.githubusercontent.com/32268861/130470035-71f18aec-6a85-403a-a6af-7e92fd3bb43c.jpg)
 
+
+
+
+fig6 = px.bar(stop_grouped, 
+                      x = selectedCompare,
+                      y= "stopDriveToAllDrives(%)", 
+                      color = selectedFilter,color_discrete_sequence = color_discrete_sequence,
+                      title='Percentages of stop drives to total drives,  '+ str(selectedRole)   + ' vehicles by ' + str(selectedCompare) + ', ' + str(selectedCity),
+                      barmode='group')
+        fig6.update_layout({'plot_bgcolor': 'rgba(255,255, 255, 255)',
+                            'paper_bgcolor': 'rgba(255,255, 255, 255)'
+                           })
+
