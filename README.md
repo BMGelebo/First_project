@@ -5,14 +5,3 @@ In the traditional field of statistics, data is defined as individual numerical 
 
 
 
-
-'<fig6 = px.bar(stop_grouped, 
-                      x = selectedCompare,
-                      y= "stopDriveToAllDrives(%)", 
-                      color = selectedFilter,color_discrete_sequence = color_discrete_sequence,
-                      title='Percentages of stop drives to total drives,  '+ str(selectedRole)   + ' vehicles by ' + str(selectedCompare) + ', ' + str(selectedCity),
-                      barmode='group')
-        fig6.update_layout({'plot_bgcolor': 'rgba(255,255, 255, 255)',
-                            'paper_bgcolor': 'rgba(255,255, 255, 255)'
-                           })>'
-
